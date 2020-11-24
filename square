@@ -1,0 +1,8 @@
+#include<iostream>
+using namespace std;
+int main(){
+int a;
+cout<<"Enter a no";
+cin>>a;
+cout<<"Square of a function is "<< a*a;
+}
