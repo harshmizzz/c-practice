@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a,i;
+    cout<<"Enter a no ";
+    cin>>a;
+    for(i=2;i<a;i++)
+    {
+        if(a%i==0)
+        {
+            cout<<"Non prime";
+            break;
+        }
+    }
+    if(i==a){
+        cout<<"Prime";
+    }
+    
+}
