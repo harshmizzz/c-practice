@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int factorial(int n){
+ int fact=1;
+ for(int i=2;i<=n;i++){
+     fact*=i;
+ }
+ return fact;
+}
+
+int binary(int a, int b){
+    int c;
+    c=a-b;
+    c=factorial(c);
+    int out;
+    out=factorial(a)/(c*factorial(b));
+    cout<<"output"<<out;
+}
+int main(){
+    int n,r;
+    cin>>n>>r;
+    binary(n,r);
+}
